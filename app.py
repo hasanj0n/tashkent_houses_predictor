@@ -41,3 +41,5 @@ if st.button('Calculate'):
     st.success(f"Kiritgan ma'lumotlaringiz asosida sizning uyingizning taxminiy narxi: {np.round(prediction, decimals=-4)}$")
 
 st.warning("Bu model 2019 yil va undan oldingi ma'lumotlar asosida qurilgan!", icon="⚠️")
+st.write("Model qurilgan google colab link:")
+st.text("https://github.com/hasanj0n/Data_Science/blob/main/real_tashkent_houses_price.ipynb")
