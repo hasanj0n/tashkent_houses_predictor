@@ -40,3 +40,4 @@ if st.button('Calculate'):
     prediction = model.predict(df.values)[0]
     st.success(f"Kiritgan ma'lumotlaringiz asosida sizning uyingizning taxminiy narxi: {np.round(prediction, decimals=-4)}$")
 
+st.warning("Bu model 2019 yil va undan oldingi ma'lumotlar asosida qurilgan!", icon="⚠️")
